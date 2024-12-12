@@ -1,0 +1,209 @@
+@import url(img/fonts.css);
+
+:root {
+    --cor-primaria: #73221A;
+    --font-size-base: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: var(--cor-primaria);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0.4375rem 0.05625rem rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho_conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__logo {
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    padding: 3.125rem 1.875rem;
+    gap: 1.875rem;
+}
+
+.produtos,
+.formulario {
+    width: 50%;
+    height: 69.6875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produtos__titulo,
+.formulario__titulo {
+    padding: 2.5rem 5.625rem;
+    font-size: 1rem;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+}
+
+.produtos__cards {
+    width: 42.25rem;
+    height: 60.4375rem;
+    background-color: white;
+    justify-content: center;
+    gap: 0.625rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-shadow: -0.75rem 0.625rem 0.3625rem rgba(0, 0, 0, 0.25);
+}
+
+.produtos__cards::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.produtos__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 calc(33.333% - 0.625rem);
+    max-width: 12.5rem;
+    height: 16.125rem;
+    background-color: var(--cor-primaria);
+    border-radius: 0.625rem;
+    border: 0.1875rem solid black;
+    gap: 0.625rem;
+    margin-bottom: 4.875rem;
+}
+
+.img__card {
+    margin-top: 0.625rem;
+    width: 11rem;
+}
+
+.text__card {
+    width: 100%;
+    text-align: start;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    color: white;
+    padding: 0px 0.625rem;
+}
+
+.text__card__preco {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    padding: 0px 0.625rem;
+}
+
+.img__lixeira {
+    width: 1.25rem;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.formulario {
+    width: 50%;
+    height: 32.3125rem;
+}
+
+.formulario__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.formulario__input{
+    width: 24.5rem;
+    height: 3.625rem;
+    background-color: var(--cor-primaria);
+    border-radius: 1.875rem;
+    border: 0.1875rem solid #0D0D0D;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #D6D6D6;
+    padding-left: 0.625rem;
+}
+
+.formulario__input::placeholder {
+    text-indent: 0.625rem; 
+    padding-right: 0.625rem; 
+}
+
+.formulario__botao{
+    width: 11.75rem;
+    height: 3.4375rem;
+    background-color: #0D0D0D;
+    color: #D6D6D6;
+    border-radius: 0.9375rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+}
+
+.rodape{    
+    background-color: var(--cor-primaria);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__logo{
+    display: flex;
+    align-items: center;
+}
+
+.text__logo{
+    font-size: 1.5rem;
+}
+
+.rodape__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    color: white;
+}
+
+.rodape__link{
+    text-decoration: none;
+    color: white;
+}
