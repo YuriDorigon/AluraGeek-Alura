@@ -1,0 +1,29 @@
+{
+    "catalogo": [
+      {
+        "id": 1,
+        "imagens": [
+          "https://th.bing.com/th/id/OIP.hxR3wqrwOBajEQ96tqrqtAHaHa?rs=1&pid=ImgDetMain"
+        ],
+        "nome": "Controle de Xbox",
+        "preco": 19.99
+      },
+      {
+        "id": 2,
+        "imagens": [
+          "https://th.bing.com/th/id/OIP.hxR3wqrwOBajEQ96tqrqtAHaHa?rs=1&pid=ImgDetMain"
+        ],
+        "nome": "Controle de Xbox",
+        "preco": 19.99
+      },
+      {
+        "id": 3,
+        "imagens": [
+          "https://th.bing.com/th/id/OIP.hxR3wqrwOBajEQ96tqrqtAHaHa?rs=1&pid=ImgDetMain"
+        ],
+        "nome": "Controle de Xbox",
+        "preco": 19.99
+      }
+    ]
+  }
+  

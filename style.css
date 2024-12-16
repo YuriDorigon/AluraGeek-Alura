@@ -221,3 +221,15 @@ button {
         flex: 1 2 calc(50% - 0.625rem);
     }
 }
+
+@media screen and (max-width: 700px) {
+    
+    .produtos, .formulario{
+        width: 32.5%;
+    }
+
+    .principal {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
