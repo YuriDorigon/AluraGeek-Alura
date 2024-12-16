@@ -42,7 +42,6 @@
 .produtos,
 .formulario {
     width: 50%;
-    height: 69.6875rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,21 +53,20 @@
     font-size: 1rem;
     font-family: "Press Start 2P", system-ui;
     text-align: center;
+    line-height: 1.1875rem;
 }
 
 .produtos__cards {
-    width: 42.25rem;
-    height: 60.4375rem;
     background-color: white;
-    justify-content: center;
-    gap: 0.625rem;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start; /* Alinha os cards ao topo */
     padding: 0;
     overflow-y: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
     box-shadow: -0.75rem 0.625rem 0.3625rem rgba(0, 0, 0, 0.25);
+    gap: 1rem; /* Espaço entre os cards */
 }
 
 .produtos__cards::-webkit-scrollbar {
@@ -84,14 +82,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 1 calc(33.333% - 0.625rem);
-    max-width: 12.5rem;
+    flex: 1 1 calc(25% - 1rem); /* Ajusta para 4 colunas por linha (ajustável) */
+    max-width: 12.5rem; /* Tamanho máximo do card */
     height: 16.125rem;
     background-color: var(--cor-primaria);
     border-radius: 0.625rem;
     border: 0.1875rem solid black;
     gap: 0.625rem;
-    margin-bottom: 4.875rem;
+    margin: 0;
 }
 
 .img__card {
@@ -206,4 +204,20 @@ button {
 .rodape__link{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .principal {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .produtos, .formulario{
+        width: 65%;
+    }
+
+    .produtos__cards{
+        flex: 1 2 calc(50% - 0.625rem);
+    }
 }
