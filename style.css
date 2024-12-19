@@ -223,6 +223,10 @@ button {
 }
 
 @media screen and (max-width: 700px) {
+
+    .cabecalho_conteudo{
+        flex-direction: column;
+    }
     
     .produtos, .formulario{
         width: 32.5%;
@@ -231,5 +235,9 @@ button {
     .principal {
         flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .formulario__input{
+        width: 350px;
     }
 }
