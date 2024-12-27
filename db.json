@@ -1,29 +1,20 @@
 {
-    "catalogo": [
-      {
-        "id": 1,
-        "imagens": [
-          "https://th.bing.com/th/id/OIP.hxR3wqrwOBajEQ96tqrqtAHaHa?rs=1&pid=ImgDetMain"
-        ],
-        "nome": "Controle de Xbox",
-        "preco": 19.99
-      },
-      {
-        "id": 2,
-        "imagens": [
-          "https://th.bing.com/th/id/OIP.hxR3wqrwOBajEQ96tqrqtAHaHa?rs=1&pid=ImgDetMain"
-        ],
-        "nome": "Controle de Xbox",
-        "preco": 19.99
-      },
-      {
-        "id": 3,
-        "imagens": [
-          "https://th.bing.com/th/id/OIP.hxR3wqrwOBajEQ96tqrqtAHaHa?rs=1&pid=ImgDetMain"
-        ],
-        "nome": "Controle de Xbox",
-        "preco": 19.99
-      }
-    ]
-  }
-  
+  "catalogo": [
+    {
+      "imagens": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8SIgzT3g5hVk2FsugCX_ZuLFs5zbNcapJ7A&s"
+      ],
+      "nome": "Arminha",
+      "preco": 32,
+      "id": 1
+    },
+    {
+      "imagens": [
+        "https://pluspng.com/img-png/png-hd-gun-ak-47-knight-armour-png-1920.png"
+      ],
+      "nome": "AK-47",
+      "preco": 999.99,
+      "id": 2
+    }
+  ]
+}

@@ -94,7 +94,8 @@
 
 .img__card {
     margin-top: 0.625rem;
-    width: 11rem;
+    width: 176px;
+    height: 174px;
 }
 
 .text__card {
